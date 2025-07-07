@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu site de paginações</title>
+    <link rel="stylesheet" href="css/styles.css">   
+
+    <!--AQUI ABAIXO OS CDN-->
+    
+
+
+    <!-- AQUI ABAIXO SOMENTE AS FONTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Caveat:wght@400..700&family=DynaPuff:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Gloria+Hallelujah&family=Indie+Flower&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lilita+One&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Righteous&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Shadows+Into+Light&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <head>
+        <div id="header" class="header">
+            <!-- Aqui virá a logo da página e o nome do Projeto -->
+            <!-- Precisamos que o nome do Projeto seja editável com um clique -->
+             <div id="leftHeader" class="left-header">
+                <img id="logoInicio" class="logoInicio left-item" src="img/pagin.pro.png" alt="Logo do Projeto">
+                <span class=" left-item"> / </span>
+                <input type="text" id="nomeDoProjeto" class=" left-item" value="Meu piso número 01">
+             </div>
+
+                <!-- Aqui vamos colocar o preview de cada imagem carregada pelo usuário-->
+            <div id="centerHeader" class="center-header">
+                <img class="center-item" src="img/icon.png" alt="Preview">
+                <button class="center-item btn-upload-image" id="uploadButton"> + </button>
+            </div>
+
+            <!-- Aqui vai ver os botões de outros apps, pesquisar e configurações-->
+
+             <div id="rightHeader" class="right-header">
+                <img class="iconsnav" src="https://img.icons8.com/ios-filled/50/search--v1.png" alt="search--v1"/>
+                <img class="iconsnav" src="https://img.icons8.com/fluency-systems-regular/48/apps--v1.png" alt="apps--v1"/>
+                <img class="iconsnav" src="https://img.icons8.com/windows/32/settings--v1.png" alt="settings--v1"/>
+
+             <!-- Aqui vai o menu de navegação com os usuários e opções de compartilhamento -->
+            
+                <nav class="navegacao">
+                    <ul>
+                        <li><a href="#usuario1"><img class="imagem-do-usuario" alt="usuarios" src="img/user1.jpg"></a></li>
+                        <li><a href="#usuario2"><img class="imagem-do-usuario" alt="usuarios" src="img/user2.jpg"></a></li>
+                        <li><a href="#contato"><img class="imagem-do-usuario" alt="usuarios" src="img/user3.jpg"></a></li>
+                        <button id="shareButton">Compartilhar</button>
+                        <!-- IDIOMAS POR ENQUANTO DESATIVADOS-->
+                         <!-- <select id="selecionarIdioma">
+                            <option value="pt">pt</option>
+                            <option value="us">us</option>
+                            <option value="es">es</option>
+                        </select> -->
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </head>
+</body>
+</html>

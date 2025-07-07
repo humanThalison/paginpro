@@ -1,0 +1,154 @@
+/* CONFIGURAÇÕES GERAIS */
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #555;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+ul, li, a{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+
+select{
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+/* CONFIGURAÇÕES DO HEADER */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    /* margin: 20px 200px; */
+    background: #ffffff;
+    /* border-radius: 20px; */
+    padding: 10px 100px;
+}
+
+.logoInicio{
+    width: 100px;
+}
+
+.left-header, .center-header, .right-header{
+    display: flex;
+    align-items: center;
+}
+
+.right-header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.right-header button{
+    margin-right: 10px;
+}
+.left-item{
+    padding: 0 10px;
+}
+
+.center-item{
+    margin: 0 10px;
+}
+
+img.center-item{
+    width: auto;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #888;
+}
+
+.btn-upload-image{
+    width: 35px;
+    height: 35px;
+    background-color: #4CAF50; /* Cor verde */
+    color: white; /* Texto branco */
+    border-radius: 50%; /* Botão redondo */
+    font-size: 24px; /* Tamanho do texto */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img.center-item:hover{
+    width: auto;
+    animation: rotate 1s ease-in-out;
+    border-radius: 5px;
+    border: 1px solid #888;
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(45deg); }
+    
+}
+span{
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+}
+
+input{
+    margin: 0;
+    padding: 0;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+}
+
+.navegacao{
+    margin-left: 30px;
+}
+
+.iconsnav{
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+    vertical-align: middle;
+    filter:invert(30%);
+}
+
+ul>li{
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+}
+
+ul>button{
+    background-color:rgb(118, 52, 172);
+    width: auto;
+    margin-left: 25px;
+    padding: 10px 20px;
+    font-weight: bolder;
+    color: #fff;
+    border-radius: 10px;
+}
+.imagem-do-usuario{
+    width: 30px;
+    height: 30px;
+    margin:0 -10px;
+    border-radius: 50%;
+    border: 3px solid #436cc5;
+    vertical-align: middle;
+}
