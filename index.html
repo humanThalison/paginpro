@@ -22,14 +22,21 @@
             <!-- Precisamos que o nome do Projeto seja editável com um clique -->
              <div id="leftHeader" class="left-header">
                 <img id="logoInicio" class="logoInicio left-item" src="img/pagin.pro.png" alt="Logo do Projeto">
-                <span class=" left-item"> / </span>
-                <input type="text" id="nomeDoProjeto" class=" left-item" value="Meu piso número 01">
+                <span class="left-item"> / </span>
+                <input type="text" id="nomeDoProjeto" name="nomeDoProjeto" class="left-item" placeholder="Nome do seu piso.png">
              </div>
 
                 <!-- Aqui vamos colocar o preview de cada imagem carregada pelo usuário-->
             <div id="centerHeader" class="center-header">
-                <img class="center-item" src="img/icon.png" alt="Preview">
-                <button class="center-item btn-upload-image" id="uploadButton"> + </button>
+                <div class="center-item image-preview">
+                    <img class="center-item" src="img/icon.png" alt="Preview">
+                    <img class="center-item" src="img/icon.png" alt="Preview">
+                    <img class="center-item" src="img/icon.png" alt="Preview">
+                    <img class="center-item" src="img/icon.png" alt="Preview">
+                    <img class="center-item" src="img/icon.png" alt="Preview">
+                    <img class="center-item" src="img/icon.png" alt="Preview">
+                </div>
+                <input type="file" multiple class="btn-upload-image">
             </div>
 
             <!-- Aqui vai ver os botões de outros apps, pesquisar e configurações-->
